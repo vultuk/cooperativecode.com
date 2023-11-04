@@ -107,13 +107,11 @@ export function Index() {
             >
               <a href="#" className="-m-1.5 p-1.5 text-white font-thin text-md">
                 <span className="sr-only">Cooperative Code</span>
-                {/* <Image
+                <Image
                   alt="Cooperative Code"
                   className="h-8 w-auto"
                   src={logo}
-                /> */}
-                Cooperative
-                <span className="text-white/50 font-light">Code</span>
+                />
               </a>
               <button
                 type="button"

@@ -445,10 +445,10 @@ export function Index() {
                 Get in touch
               </h2>
               <p className="mt-6 text-lg leading-8 text-gray-500">
-                Reach out to us by filling out the form, and we'll be delighted
-                to assist you. Alternatively, feel free to use the contact
-                details below to connect with our team directly. Let's explore
-                new possibilities together!
+                Reach out to us by filling out the form, and we&apos;ll be
+                delighted to assist you. Alternatively, feel free to use the
+                contact details below to connect with our team directly.
+                Let&apos;s explore new possibilities together!
               </p>
               <dl className="mt-10 space-y-4 text-base leading-7 text-gray-600">
                 <div className="flex gap-x-4">

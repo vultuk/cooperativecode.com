@@ -1,6 +1,19 @@
-import '@/styles/globals.css'
-import type { AppProps } from 'next/app'
+import './styles.css';
 
-export default function App({ Component, pageProps }: AppProps) {
-  return <Component {...pageProps} />
+import { AppProps } from 'next/app';
+import Head from 'next/head';
+
+function CustomApp({ Component, pageProps }: AppProps) {
+  return (
+    <>
+      <Head>
+        <title>Cooperative Code Ltd - Unlock Your IT Potential</title>
+      </Head>
+      <main className="app">
+        <Component {...pageProps} />
+      </main>
+    </>
+  );
 }
+
+export default CustomApp;

@@ -30,6 +30,6 @@
   },
   "devDependencies": {
     "@cloudflare/next-on-pages": "^1.7.2",
-    "vercel": "^32.5.0"
+    "vercel": "^32.7.2"
   }
 }
